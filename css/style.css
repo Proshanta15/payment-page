@@ -1,0 +1,175 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1250px;
+}
+
+
+
+
+
+/*Start Body Part*/
+#body{
+    margin-top: 50px;
+    margin-bottom: 340px;
+}
+#body .title h1{
+    position: relative;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+#body .title h1::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FF8C00;
+    margin: 0 auto;
+}
+
+#body .service-title h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+}
+#body .service{
+    width: 100%;
+    margin: 0 auto;
+}
+#body .service .left-part{
+    margin: 0 auto;
+    width: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    float: left;
+}
+#body .service .right-part{
+    margin: 0 auto;
+    width: 50%;
+   text-align: center;
+  float: left;
+}
+
+#body .service ul li label {
+    border: 1px solid gray;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 224px;
+    cursor: pointer;
+    text-align: start;
+    font-size: 15px;
+}
+#body .service ul li label i{
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: #FF8C00;
+}
+#body .payment-title{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+}
+
+#body .dropdown .btn-group img{
+    height: 50px;
+    width: 100%;
+}
+#body .dropdown-item {
+   
+    border-bottom: 1px solid #e2e2e2;
+}
+#body .dropdown-item:last-child{
+    border-bottom: none;
+}
+
+#body .dropdown-menu {
+    min-width: 9.5rem;
+}
+#body .btn-group-vertical > .btn, .btn-group > .btn {
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 149px;
+    height: 70px;
+    
+}
+#body .payment-title h4{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+}
+#body .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+#body .button {
+    margin-top: 10px;
+    margin-left: 6px;
+}
+#body .button a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: #FF8C00;
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    font-size: 15px;
+}
+#body .button a:hover{
+    opacity: .7; 
+}
+/*End Body Part*/

@@ -1,0 +1,93 @@
+
+
+@media (max-width: 991px) {
+    
+    #body .service-title h4 {
+        margin-bottom: 15px;
+        margin-left: 65px;
+    }
+    #body .payment-title h4 {
+        padding-bottom: 5px;
+        margin-top: 25px;
+    }
+    #body .service .left-part{
+        width: 50%;
+        text-align: center;
+        float: right;
+    }
+    #body .service .right-part{
+        width: 50%;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    #body .title h1 {
+        font-size: 25px;
+        margin:10px 0px 20px 0px;
+    }
+    #body .service-title h4 {
+        margin-bottom: 15px;
+        font-size: 23px;
+    }
+    #body .service ul li label {
+        width: 225px;
+        font-size: 14px;
+    }
+    #body .payment-title h4 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 575px){
+    #body .title h1 {
+        font-size: 20px;
+        margin: 15px 0px 17px 0px;
+    }
+    #body .title h1::after {
+        width: 30%;
+    }
+    #body .service-title h4 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #body .service .left-part{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    #body .service .right-part{
+        width: 100%;
+        text-align: center;
+    }
+    #body .btn-group-vertical > .btn, .btn-group > .btn {
+        width: 100px;
+        height: 50px;
+        padding: 5px 10px;
+    }
+    #body .dropdown-item {
+        width: 115px;
+        padding: 2px 10px 2px 2px;
+    }
+    #body .dropdown .btn-group img {
+        height: 50px;
+        width: 100%;
+    }
+    #body .dropdown-menu {
+        min-width: 8rem;
+    }
+    #body .button {
+        margin-top: 10px;
+        margin-left: 28px;
+    }
+    #body .button a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    #body .btn-group, .btn-group-vertical {
+        margin-bottom: 5px;
+    }
+  
+    
+} 
